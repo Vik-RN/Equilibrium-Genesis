@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39b56152be77454c9bda47e11e095b7, type: 3}
+  m_Name: SKill Z
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: Fire
+  skillLevel: 1
+  castAnimName: Charge_Skill_Z_MC
+  executeAnimName: Charge_Skill_Z_MC
+  castTime: 1
+  cooldown: 5
+  magicCirclePrefab: {fileID: 3600389243222657682, guid: 3fee2e03e4bdc854bb38f7bcbca7c75d, type: 3}
+  magicCircleOffset: {x: 0, y: 0, z: 0}
+  magicCircleRotation: {x: 0, y: 0, z: 0}
+  magicCircleScale: {x: 1, y: 1, z: 1}
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 20
+  maxRange: 12
+  projectileHitboxRadius: 0.3
+  projectileScale: {x: 1, y: 1, z: 1}
+  impactAOEPrefab: {fileID: 0}
+  aoeRadius: 3.5
+  impactVFXScale: {x: 1, y: 1, z: 1}
+  impactVFXDuration: 2
+  damage: 50
+  stunDamage: 35
+  knockback: 10
+  upgradeCost: 10
+  damageIncreasePerLevel: 5
+  stunIncreasePerLevel: 10
+  duration: 1.2

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39b56152be77454c9bda47e11e095b7, type: 3}
+  m_Name: SKill X
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: Water
+  skillLevel: 1
+  castAnimName: Cast_Magic
+  executeAnimName: Release_magic
+  castTime: 1
+  cooldown: 2
+  magicCirclePrefab: {fileID: 1189925693658996180, guid: c51fe48137902a449967de41f366a524, type: 3}
+  magicCircleOffset: {x: 0, y: 0, z: 0}
+  magicCircleRotation: {x: 0, y: 0, z: 90}
+  magicCircleScale: {x: 0.15, y: 0.15, z: 0.15}
+  projectilePrefab: {fileID: 100000, guid: 74b43d611dce21b4fa2b321a5bada19d, type: 3}
+  projectileSpeed: 50
+  maxRange: 70
+  projectileHitboxRadius: 0.3
+  projectileScale: {x: 1, y: 1, z: 1}
+  impactAOEPrefab: {fileID: 100010, guid: 981de5cd3dd777d41b6272a783d3b7ee, type: 3}
+  aoeRadius: 3.5
+  impactVFXScale: {x: 3, y: 3, z: 3}
+  impactVFXDuration: 5
+  damage: 50
+  stunDamage: 35
+  knockback: 10
+  upgradeCost: 10
+  damageIncreasePerLevel: 5
+  stunIncreasePerLevel: 10
+  duration: 1.2
+  castSFX: {fileID: 8300000, guid: 6525e271ef84c8149b8d521f7d020a0a, type: 3}
+  loopCastSFX: 1
+  castVolume: 0.8
+  projectileFlySFX: {fileID: 8300000, guid: 4542cb48195f2bf4d907f435bdc34a99, type: 3}
+  projectileFlyVolume: 0.8
+  impactAOESFX: {fileID: 8300000, guid: b89b2176d108d9a408e5e4f4ae7f48d9, type: 3}
+  impactAOEVolume: 2
