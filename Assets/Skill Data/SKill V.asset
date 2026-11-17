@@ -12,26 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39b56152be77454c9bda47e11e095b7, type: 3}
   m_Name: SKill V
   m_EditorClassIdentifier: Assembly-CSharp::SkillData
-  skillName: V
+  skillName: Wind breaker
   skillLevel: 1
-  castAnimName: Charge_Skill_Z_MC
-  executeAnimName: Charge_Skill_Z_MC
+  castAnimName: Cast_Magic
+  executeAnimName: Release_magic
   castTime: 1
   cooldown: 5
-  magicCirclePrefab: {fileID: 3600389243222657682, guid: 3fee2e03e4bdc854bb38f7bcbca7c75d, type: 3}
-  spellExecutePrefab: {fileID: 1205478487176026167, guid: 8436419d5cd706242bb810378b8a8835, type: 3}
+  magicCirclePrefab: {fileID: 1189925693658996180, guid: c51fe48137902a449967de41f366a524, type: 3}
   magicCircleOffset: {x: 0, y: 0, z: 0}
-  magicCircleRotation: {x: 0, y: 0, z: 0}
-  magicCircleScale: {x: 1, y: 1, z: 1}
-  executeVFXOffset: {x: 0, y: 0, z: 0}
-  executeVFXRotation: {x: 0, y: 0, z: 0}
-  executeVFXScale: {x: 1, y: 1, z: 1}
+  magicCircleRotation: {x: 0, y: 0, z: 100}
+  magicCircleScale: {x: 0.2, y: 0.2, z: 0.2}
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 20
+  maxRange: 12
+  projectileHitboxRadius: 0.3
+  projectileScale: {x: 1, y: 1, z: 1}
+  impactAOEPrefab: {fileID: 0}
+  aoeRadius: 3.5
+  impactVFXScale: {x: 1, y: 1, z: 1}
+  impactVFXDuration: 2
   damage: 50
   stunDamage: 35
   knockback: 10
-  radius: 3
   upgradeCost: 10
   damageIncreasePerLevel: 5
   stunIncreasePerLevel: 10
   duration: 1.2
-  hitTime: 0.3
+  castSFX: {fileID: 0}
+  loopCastSFX: 1
+  castVolume: 0.8
+  projectileFlySFX: {fileID: 0}
+  projectileFlyVolume: 0.8
+  impactAOESFX: {fileID: 0}
+  impactAOEVolume: 1.5

@@ -31,10 +31,10 @@ MonoBehaviour:
   aoeRadius: 3.5
   impactVFXScale: {x: 3, y: 3, z: 3}
   impactVFXDuration: 5
-  damage: 50
-  stunDamage: 35
+  damage: 115
+  stunDamage: 165
   knockback: 10
-  upgradeCost: 10
+  upgradeCost: 75
   damageIncreasePerLevel: 5
   stunIncreasePerLevel: 10
   duration: 1.2
